@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280346544177",
+    "project_id": "timepad-1f35c",
+    "storage_bucket": "timepad-1f35c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280346544177:android:6a80bbe7308335d6286d10",
+        "android_client_info": {
+          "package_name": "com.nauka.timepad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280346544177-mr8in36oi5me0rgr5uv3omaivv1v67id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6k94g_d8l9rzeeIlCYjpbue7Ksp1SAeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280346544177-mr8in36oi5me0rgr5uv3omaivv1v67id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
