@@ -101,6 +101,7 @@ class Registration : Fragment() {
                     .show()
             } else {
                 startPhoneNumberVerification(phone)
+
             }
         }
         //resendCodeTv click: (if code didn't receive) resend verification code / OTP
@@ -199,10 +200,8 @@ class Registration : Fragment() {
         if (firebaseUser == null){
             //logget out
             //startActivity(Intent(activity, MainActivity::class.java))
-
         }
         else{
-            //startActivity(Intent(activity, ProfileActivity2::class.java))
             findNavController().navigate(R.id.action_global_home2)
         }
     }
