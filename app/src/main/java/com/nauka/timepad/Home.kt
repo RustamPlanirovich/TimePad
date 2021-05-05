@@ -56,7 +56,7 @@ class Home : Fragment(), TimeAdapter.ItemClickListener {
         binding.itemRecyclerView.layoutManager = LinearLayoutManager(context)
         binding.itemRecyclerView.adapter = timeAdapter
 
-        ItemTouchHelper(object : ItemTouchHelper.SimpleCallback(0, LEFT or RIGHT) {
+        ItemTouchHelper(object : ItemTouchHelper.SimpleCallback(0, LEFT) {
             override fun onMove(
                 recyclerView: RecyclerView,
                 viewHolder: RecyclerView.ViewHolder,
