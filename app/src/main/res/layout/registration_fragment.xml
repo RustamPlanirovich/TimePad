@@ -11,8 +11,7 @@
         android:layout_height="match_parent"
         android:background="#f7f7f7"
         android:orientation="vertical"
-        android:padding="10dp"
-        tools:context=".MainActivity">
+        android:padding="10dp">
 
         <ImageView
             android:id="@+id/iconIv"
@@ -67,6 +66,13 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
                 android:text="Continue" />
+
+            <TextView
+                android:id="@+id/nextCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="До запроса кода повторно:"
+                android:textAlignment="center" />
         </LinearLayout>
 
         <!--2) For OTP/Verification Code Input-->
@@ -102,7 +108,8 @@
                 android:layout_marginTop="10dp"
                 android:background="#fff"
                 android:hint="000000"
-                android:inputType="phone"
+                android:inputType="number"
+                android:maxLength="6"
                 android:padding="10dp"
                 android:textAlignment="center"
                 android:textColor="#000"
@@ -110,13 +117,13 @@
 
             <TextView
                 android:id="@+id/resendCodeTv"
+                style="@style/TextAppearance.AppCompat.Caption"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/TextAppearance.AppCompat.Caption"
                 android:padding="5dp"
+                android:text="@string/didn_t_get_otp_resend"
                 android:textAlignment="center"
-                android:textColor="#777777"
-                android:text="@string/didn_t_get_otp_resend" />
+                android:textColor="#777777" />
 
             <Button
                 android:id="@+id/codeSubmitBtn"
